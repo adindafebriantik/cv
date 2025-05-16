@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Modern - SMA Negeri 2 Probolinggo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    :root {
+      --primary: #3f51b5;
+      --light: #f5f7fa;
+      --text: #333;
+      --highlight: #2196f3;
+      --white: #fff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--light);
+      color: var(--text);
+    }
+
+    .logo-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 0;
+      background-color: var(--white);
+    }
+
+    .logo-header img {
+      width: 80px;
+      height: auto;
+    }
+
+    .logo-header .school-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--primary);
+      text-align: left;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto 30px;
+      display: flex;
+      background-color: var(--white);
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      overflow: hidden;
+      flex-wrap: wrap;
+    }
+
+    .sidebar {
+      background-color: var(--primary);
+      color: var(--white);
+      flex: 1 1 250px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .sidebar img.profile {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid var(--white);
+      object-fit: cover;
+    }
+
+    .sidebar h2 {
+      margin: 15px 0 5px;
+      font-size: 22px;
+    }
+
+    .sidebar p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .sidebar .social a {
+      color: var(--white);
+      font-size: 20px;
+      margin: 10px 8px;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .sidebar .social a:hover {
+      color: var(--highlight);
+    }
+
+    .main {
+      flex: 3 1 600px;
+      padding: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h3 {
+      font-size: 20px;
+      color: var(--primary);
+      margin-bottom: 10px;
+      border-bottom: 2px solid var(--primary);
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .section ul {
+      margin-left: 20px;
+      list-style: square;
+    }
+
+    .section ul li {
+      margin-bottom: 8px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      background-color: #f0f0f0;
+      color: #666;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .sidebar, .main {
+        flex: 1 1 100%;
+      }
+
+      .logo-header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .logo-header img {
+        width: 70px;
+      }
+
+      .logo-header .school-name {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- LOGO & NAMA SEKOLAH -->
+  <div class="logo-header">
+    <img src="logo.png" alt="Logo Sekolah">
+    <div class="school-name">SMA NEGERI 2 PROBOLINGGO</div>
+  </div>
+
+  <!-- ISI CV -->
+  <div class="container">
+    <div class="sidebar">
+      <img src="foto.jpg" alt="Foto Profil" class="profile">
+      <h2>Adinda febrianti Kurniasari</h2>
+      <p>Siswa SMA Negeri 2 Probolinggo</p>
+      <div class="social">
+        <a href="https://instagram.com/username" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://t.me/username" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="https://twitter.com/username" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://facebook.com/username" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="section">
+  <h3>Tentang Saya</h3>
+  <p>
+    Saya adalah siswa SMA Negeri 2 Probolinggo yang memiliki minat besar di bidang teknologi, khususnya pengembangan web. Saat ini saya sedang belajar dasar-dasar HTML dan CSS untuk membuat tampilan website yang menarik dan responsif. Saya senang mencoba hal baru, belajar secara mandiri melalui internet, dan bercita-cita menjadi seorang web developer profesional di masa depan. Selain belajar, saya juga aktif mengikuti kegiatan sekolah dan organisasi untuk mengembangkan keterampilan kerja sama dan kepemimpinan.
+  </p>
+  <br />
+  <p><strong>Nama Lengkap:</strong> Adinda Febrianti Kurniasari</p>
+  <p><strong>Tempat, Tanggal Lahir:</strong> Probolinggo, 22 Februari 2009</p>
+  <p><strong>Alamat:</strong> Jl. KH Hasan Genggong No. 338, Probolinggo</p>
+  <p><strong>Email:</strong> adindakurniasari@gmail.com</p>
+  <p><strong>No. HP:</strong> 085183758912</p>
+</div>
+
+
+      <div class="section">
+        <h3>Pendidikan</h3>
+        <ul>
+          <li>SMA Negeri 2 Probolinggo (2024 - Sekarang)</li>
+          <li>SMP Negeri 4 Probolinggo (2021 - 2024)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Keterampilan</h3>
+        <ul>
+          <li>HTLM & CSS</li>
+          <li>Canva & Desain Presentasi</li>
+          <li>Microsoft Office</li>
+          <li>Edit Foto & Video Dasar</li>
+		  <li>Menggambar Manual</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Hobi</h3>
+        <ul>
+          <li>Desain grafis digital</li>
+          <li>Menulis blog</li>
+          <li>Game edukatif</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 - CV oleh ADINDA febrianti Kurniasari | SMA Negeri 2 Probolinggo
+  </div>
+
+</body>
+</html>
